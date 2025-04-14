@@ -12,7 +12,7 @@ function makeBubble() {
 makeBubble();
 
 function runTimer() {
-    var timer = 6;
+    var timer = 60;
     var timerval = setInterval(function() {
         if (timer < 0) {
             clearInterval(timerval);
