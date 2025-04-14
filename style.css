@@ -99,9 +99,10 @@ html,body{
     #ptop{
         height: 80px;
     }
-    #pbottom{
+    #pbottom {
         height: calc(100% - 80px);
-        overflow: hidden;
+        overflow-y: auto;
+        padding-bottom: 20px;
     }
     .bubble{
         height: 40px;
