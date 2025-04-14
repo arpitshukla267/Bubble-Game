@@ -94,3 +94,19 @@ html,body{
     background-color: rgb(106, 170, 106);
     cursor: pointer;
 }   
+
+@media (max-width: 475px) {
+    #ptop{
+        height: 80px;
+    }
+    #pbottom{
+        height: calc(100% - 80px);
+        overflow: hidden;
+    }
+    .bubble{
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+}
